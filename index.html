@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yo?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Pimm Store</h1>
+        <nav>
+            <a href="#products">Products</a>
+            <a href="#cart">Cart (<span id="cart-count">0</span>)</a>
+        </nav>
+    </header>
+    <main>
+        <section id="products">
+            <h2>Produk</h2>
+            <div class="product" data-id="1">
+                <img src="https://images.app.goo.gl/3BFVjgYoaVtvbAZL9" alt="mobil">
+                <h3>Mobil</h3>
+                <p>$1000</p>
+                <button class="add-to-cart">Pesan</button>
+            </div>
+            <div class="product" data-id="2">
+                <img src="https://images.app.goo.gl/3BFVjgYoaVtvbAZL9" alt="orgil">
+                <h3>Radhit</h3>
+                <p>$0.1</p>
+                <button class="add-to-cart">Pesan</button>
+            </div>
+          <div class="product" data-id="3">
+                <img src="https://images.app.goo.gl/3BFVjgYoaVtvbAZL9" alt="orgil">
+                <h3>Nopal</h3>
+                <p>$0.1</p>
+                <button class="add-to-cart">Pesan</button>
+            </div>
+          <div class="product" data-id="4">
+                <img src="https://images.app.goo.gl/3BFVjgYoaVtvbAZL9" alt="orgil">
+                <h3>Sarip</h3>
+                <p>$0.1</p>
+                <button class="add-to-cart">Pesan</button>
+            </div>
+        </section>
+        <aside id="cart">
+            <h2>Keranjang</h2>
+            <ul id="cart-items">
+                <!-- Cart items will be added here -->
+            </ul>
+            <p>Total: $<span id="cart-total">0.00</span></p>
+            <button id="checkout">Bayar</button>
+        </aside>
+    </main>
+    <footer>
+        <p>&copy; 2024 Pimm Store</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
